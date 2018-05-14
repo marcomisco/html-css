@@ -1,57 +1,168 @@
+body{
+    background-image: url("banner1.jpg");
+
+}
+.partie1{
+    border:2px solid #d2dd6d;
+    padding: 8px;
+    background-color:#6da3aa;
+    border-radius: 5px;
+   
+}
+
 
 .main-header{
-    height: 170px;
+    height: 90px;
     width: 100%;
-    background-color: blue
+    background-image: url("banner1.jpg");
     
 }
 .logo{
 
-    height: 80px;
-    
+    height: 90px;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+  
+}
+.logo2{
+    height: 90px;
+    width: 100%;
 }
 
-.main-contenair{
-    height: 400px;
-    background-color: brown
-    
+.logo4{
+    height: 120px;
+    width: 140px;
+    margin-left: 80%;
 
+}
+
+.logo3{
+    height: 190px;
+
+}
+.main-contenair{
+    height: 1890px;
+    background-color:blueviolet;
+    margin: 28px;
+    padding: 28px;
+    
 }
 
 .main-footer{
-    height: 150px;
-    background-color: yellow;
+    height: 100px;
+    
 }
 
 .menu{
-    height: 50px;
+    height: 250px;
     float: right;
     margin-right: 320px;
     margin-bottom: 420px;
-    background-color: darkviolet;
+    background-color: rgb(248, 242, 250);
 }
 
 h1,h2{
     color: white
-    
+        
 }
 
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-shadow: 3px 2px red;
+ 
+
+}
+h2{
+    text-shadow: 1px 1px black;
+}
+li{
+    color: white;
+    font-size:  25px;
+    text-shadow: 1px 1px black;
+}
+
+
 .topnav {
-    background-color: #333;
+    background-color: orangered
     overflow: hidden;
 }
 
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: orange
     text-align: center;
-    padding: 14px 16px;
+    padding: 28px 46px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 28px;
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: brown
     color: black
+}
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        
+    }
+    
+    /* Add a hover effect if you want */
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    /* Set a specific color for each brand */
+    
+    /* Facebook */
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        padding: 20px;
+        
+    
+    }
+    /* Twitter */
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+
+    @-webkit-keyframes mymove {
+        0%   {top: 0px; left: 0px; background: red;}
+        25%  {top: 0px; left: 100px; background: blue;}
+        50%  {top: 100px; left: 100px; background: yellow;}
+        75%  {top: 100px; left: 0px; background: green;}
+        100% {top: 0px; left: 0px;  background: red;}
+    }
+    
+    /* Standard syntax */
+    @keyframes mymove {
+        0%   {top: 0px; left: 0px; background: red;}
+        25%  {top: 0px; left: 100px; background: blue;}
+        50%  {top: 100px; left: 100px; background: yellow;}
+        75%  {top: 100px; left: 0px; background: green;}
+        100% {top: 0px; left: 0px; background: red;}
+    }  
+    
+    
+.hoby{
+    height: 140px;
+    margin-left: 50%;
+    margin-right: auto;
 }
 
