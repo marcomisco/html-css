@@ -1,2 +1,3 @@
 # html-css
-exercice 7mai
+Création d'une page profil (7mai)
+
